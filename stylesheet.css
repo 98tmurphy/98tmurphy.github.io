@@ -1,8 +1,15 @@
-.sidenav{
-    width: 160px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:aquamarine;
-    padding-top: 20px;
+.topBar{
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, purple,silver);
+    margin-top: 0;
+
+}
+.topBar a{
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
 }
